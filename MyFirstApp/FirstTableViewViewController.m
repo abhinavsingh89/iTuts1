@@ -8,6 +8,7 @@
 
 #import "FirstTableViewViewController.h"
 #import "MyFirstDefaultCell.h"
+#import "CodeBasedCell.h"
 
 @interface FirstTableViewViewController ()
 
@@ -66,16 +67,15 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString* identifier = @"MyDefaultCell";
-    MyFirstDefaultCell* cell;
+    CodeBasedCell* cell;
     
     cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     
     if(cell == nil)
-        cell = [MyFirstDefaultCell createCell];
+        cell = [[CodeBasedCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     
-    cell.lbl1.text = [dataArray objectAtIndex:indexPath.row];
-    cell.imgView.image = [UIImage imageNamed:@"bg_tile.png"];
-    cell.lbl2.text = @"This is the label 2";
+    cell.myCodeBasedLbl.text = [dataArray objectAtIndex:indexPath.row];
+    
     return cell;
 }
 

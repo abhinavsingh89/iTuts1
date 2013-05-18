@@ -26,11 +26,11 @@
     // Configure the view for the selected state
 }*/
 
-+ (id) createCell
+/*+ (id) createCell
 {
     UIViewController* cellController = [[UIViewController alloc] initWithNibName:@"MyFirstDefaultCell" bundle:nil];
     
     return cellController.view;
-}
+}*/
 
 @end

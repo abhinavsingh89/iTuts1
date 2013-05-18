@@ -27,7 +27,7 @@
 		AD1F263717359192002DD6ED /* FirstTableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1F263517359192002DD6ED /* FirstTableViewViewController.xib */; };
 		AD1F268A173E2C2D002DD6ED /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD1F2688173E2C2C002DD6ED /* Model.xcdatamodeld */; };
 		AD1F268D173EAB35002DD6ED /* MyFirstDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F268C173EAB35002DD6ED /* MyFirstDefaultCell.m */; };
-		AD1F268F173EAB6C002DD6ED /* MyFirstDefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1F268E173EAB6C002DD6ED /* MyFirstDefaultCell.xib */; };
+		AD522EC21747CB630024E04C /* CodeBasedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD522EC11747CB630024E04C /* CodeBasedCell.m */; };
 		ADEA9A7C172433AC0024EF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA9A7B172433AC0024EF4D /* UIKit.framework */; };
 		ADEA9A7E172433AC0024EF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA9A7D172433AC0024EF4D /* Foundation.framework */; };
 		ADEA9A80172433AC0024EF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA9A7F172433AC0024EF4D /* CoreGraphics.framework */; };
@@ -64,7 +64,8 @@
 		AD1F2689173E2C2D002DD6ED /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		AD1F268B173EAB35002DD6ED /* MyFirstDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFirstDefaultCell.h; sourceTree = "<group>"; };
 		AD1F268C173EAB35002DD6ED /* MyFirstDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFirstDefaultCell.m; sourceTree = "<group>"; };
-		AD1F268E173EAB6C002DD6ED /* MyFirstDefaultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFirstDefaultCell.xib; sourceTree = "<group>"; };
+		AD522EC01747CB630024E04C /* CodeBasedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeBasedCell.h; sourceTree = "<group>"; };
+		AD522EC11747CB630024E04C /* CodeBasedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeBasedCell.m; sourceTree = "<group>"; };
 		ADEA9A78172433AC0024EF4D /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEA9A7B172433AC0024EF4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ADEA9A7D172433AC0024EF4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,8 +138,9 @@
 				AD1F263417359192002DD6ED /* FirstTableViewViewController.m */,
 				AD1F263517359192002DD6ED /* FirstTableViewViewController.xib */,
 				AD1F268B173EAB35002DD6ED /* MyFirstDefaultCell.h */,
-				AD1F268E173EAB6C002DD6ED /* MyFirstDefaultCell.xib */,
 				AD1F268C173EAB35002DD6ED /* MyFirstDefaultCell.m */,
+				AD522EC01747CB630024E04C /* CodeBasedCell.h */,
+				AD522EC11747CB630024E04C /* CodeBasedCell.m */,
 				ADEA9A82172433AC0024EF4D /* Supporting Files */,
 			);
 			path = MyFirstApp;
@@ -247,7 +249,6 @@
 				AD1F262C1735518C002DD6ED /* field_time@2x.png in Resources */,
 				AD1F262D1735518C002DD6ED /* HallOfTheMountainKing.mp3 in Resources */,
 				AD1F263717359192002DD6ED /* FirstTableViewViewController.xib in Resources */,
-				AD1F268F173EAB6C002DD6ED /* MyFirstDefaultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +265,7 @@
 				AD1F263617359192002DD6ED /* FirstTableViewViewController.m in Sources */,
 				AD1F268A173E2C2D002DD6ED /* Model.xcdatamodeld in Sources */,
 				AD1F268D173EAB35002DD6ED /* MyFirstDefaultCell.m in Sources */,
+				AD522EC21747CB630024E04C /* CodeBasedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

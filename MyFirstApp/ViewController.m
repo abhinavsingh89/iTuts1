@@ -46,6 +46,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"bg_tile.png"]]];
     
+    UILabel* lbl = [[UILabel alloc] init];
+    lbl.frame = CGRectMake(10, 90, 300, 50);
+    lbl.text = @"Hello! How are you?";
+    [self.view addSubview:lbl];
+    
     NSMutableArray* string = [[NSMutableArray alloc] initWithObjects:@"ABC", @"DEF", @"GHI", @"JKL", nil];
     
     NSArray* key = [NSArray arrayWithObjects:@"Key1", @"Key2", @"Key3", @"Key4", nil];

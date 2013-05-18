@@ -10,4 +10,6 @@
 
 @interface CodeBasedCell : UITableViewCell
 
+@property(nonatomic, strong) UILabel* myCodeBasedLbl;
+
 @end

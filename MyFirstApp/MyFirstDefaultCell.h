@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface MyFirstDefaultCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UILabel *lbl1;
-@property (weak, nonatomic) IBOutlet UILabel *lbl2;
-@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) UILabel *lbl1;
+@property (weak, nonatomic) UILabel *lbl2;
+@property (weak, nonatomic) UIImageView *imgView;
 
 
 + (id) createCell;

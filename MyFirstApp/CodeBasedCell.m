@@ -14,7 +14,10 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        // Initialization code
+        
+        self.myCodeBasedLbl = [[UILabel alloc] init];
+        self.myCodeBasedLbl.frame = CGRectMake(10, 10, 300, 40);
+        [self addSubview:self.myCodeBasedLbl];
     }
     return self;
 }
