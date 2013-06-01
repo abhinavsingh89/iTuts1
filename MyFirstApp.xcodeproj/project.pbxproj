@@ -28,6 +28,7 @@
 		AD1F268A173E2C2D002DD6ED /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD1F2688173E2C2C002DD6ED /* Model.xcdatamodeld */; };
 		AD1F268D173EAB35002DD6ED /* MyFirstDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F268C173EAB35002DD6ED /* MyFirstDefaultCell.m */; };
 		AD522EC21747CB630024E04C /* CodeBasedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD522EC11747CB630024E04C /* CodeBasedCell.m */; };
+		AD522EF317481B930024E04C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD522EF217481B930024E04C /* AVFoundation.framework */; };
 		ADEA9A7C172433AC0024EF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA9A7B172433AC0024EF4D /* UIKit.framework */; };
 		ADEA9A7E172433AC0024EF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA9A7D172433AC0024EF4D /* Foundation.framework */; };
 		ADEA9A80172433AC0024EF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA9A7F172433AC0024EF4D /* CoreGraphics.framework */; };
@@ -66,6 +67,7 @@
 		AD1F268C173EAB35002DD6ED /* MyFirstDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFirstDefaultCell.m; sourceTree = "<group>"; };
 		AD522EC01747CB630024E04C /* CodeBasedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeBasedCell.h; sourceTree = "<group>"; };
 		AD522EC11747CB630024E04C /* CodeBasedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeBasedCell.m; sourceTree = "<group>"; };
+		AD522EF217481B930024E04C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ADEA9A78172433AC0024EF4D /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEA9A7B172433AC0024EF4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ADEA9A7D172433AC0024EF4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD522EF317481B930024E04C /* AVFoundation.framework in Frameworks */,
 				ADEA9A7C172433AC0024EF4D /* UIKit.framework in Frameworks */,
 				ADEA9A7E172433AC0024EF4D /* Foundation.framework in Frameworks */,
 				ADEA9A80172433AC0024EF4D /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		ADEA9A6F172433AC0024EF4D = {
 			isa = PBXGroup;
 			children = (
+				AD522EF217481B930024E04C /* AVFoundation.framework */,
 				ADEA9A81172433AC0024EF4D /* MyFirstApp */,
 				ADEA9A7A172433AC0024EF4D /* Frameworks */,
 				ADEA9A79172433AC0024EF4D /* Products */,

@@ -35,6 +35,9 @@
     txtFld.delegate = self;
     
     NSLog(@"%@",self.recvdValue);
+    
+    NSArray* notifObject = [NSArray arrayWithObjects:@"Hello", @"ABC", nil];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"myFirstNotif" object:notifObject];
 
 }
 
